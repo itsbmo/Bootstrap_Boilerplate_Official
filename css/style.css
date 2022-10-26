@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white; 
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+li {
+    padding: 10px;
+}
+li:hover {
+    background-color: rgba(238, 255, 0, 0.946);
+    box-shadow: 19px;
+    color: black;
+}
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.cover{
+    position: relative;
+    z-index: 100;
+    background-color:white;
+}
